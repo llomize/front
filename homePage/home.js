@@ -137,3 +137,5 @@ function addP(gridItem,value,className){
     pName.textContent = value;
     gridItem.appendChild(pName);
 }
+
+// test change
