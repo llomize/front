@@ -1,0 +1,105 @@
+#inp{
+    background-color: red;
+}
+
+.filter{
+    width: 20%;
+    max-width: 300px;
+    padding: 10px;
+    background: #dfdfdf;
+    border-radius: 5px;
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-links{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    max-width: 1200px;
+    margin:auto;
+}
+
+.header-links>a{
+    padding: 18px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header-links>a:hover{
+    background-color: #989800;
+}
+
+.content{
+    width: 60%;
+    max-width: 1200px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.right{
+    width: 20%;
+    max-width: 300px;
+    padding: 10px;
+}
+
+.filter-check{
+
+}
+.grid-item{
+    display: flex;
+    gap: 3px;
+    padding: 5px;
+}
+.price-div{
+    display: flex;
+    gap: 10px;
+}
+.price-div > input{
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    min-width: 0;
+}
+
+.card-img{
+    width: 200px;
+    height: 200px;
+}
+
+.card-p-header{
+    font-weight: bold;
+    width: 30%;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+
+.card-p-div{
+    display: flex;
+    gap: 10px;
+}
+.card-p{
+    width: 70%;
+}
